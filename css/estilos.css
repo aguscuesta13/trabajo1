@@ -1,21 +1,126 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#ED9128;
+    flex-wrap: wrap;
+
+}
+
+.logo{
+    width: 90px;
+}
+
+.titulo{
+    font-family: fantasy;
+    font-size: xx-large;
+}
+
+.redess{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#ED9128;
+    flex-wrap: wrap;
+
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+
+
+
+
+
+nav{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    background-color: #ED9128;
+
+}
+
+.enlaces{
+    font-family: fantasy;
+}
+
+
+.recetas{
+    width: 80px;
+    height: 80px;
+    margin: 80px;
+    color: black;
+}
+
+
+
 body{
     background-color: azure;
-    background-image: url(./fondo.webp);
+    background-image: url(./fondonuevo.jpg);
     background-attachment: fixed;
     text-align: center;
 }
-#titulo {color:#c672ce}
-.enlaces{border: 2px solid black;}
-.foto1 {padding: 10px;margin: 10px; border: 2px solid black; width: 200px; height: 200px;background-color: violet;}
-header {background-color:rgb(109, 26, 109);}
-nav{background-color: rgb(182, 93, 171);}
-main {background-color: rgb(182, 93, 171);}
-aside{background-color: rgb(182, 93, 171)}
-footer {background-color:rgb(182, 93, 171);}
-.ingredientes {color: #520858;text-align: center;bottom: 20px;font-size:xx-large;}
-.whatsapp {width: 50px;position: fixed;bottom: 10px ;right:38px;
+
+
+
+section{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+
 }
-section {background-color:violet;}
-.redes {color:rgb(147, 37, 161)}
-.ig {width: 50px;right: 100px;position: inherit;bottom: 20px;}
-.tw {width: 50px;right: 150px;position: inherit;bottom :20px;}
+.foto1 {padding: 10px;margin: 10px; border: 2px solid black; width: 200px; height: 200px;}
+
+
+main {background-color:#ED9128; }
+
+aside{background-color: #ED9128;}
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#ED9128;
+    flex-wrap: wrap;
+}
+
+.mapa{
+    width: 80px;
+    height: 80px;
+}
+.redes2{
+    display: flex;
+  align-items: center;
+  background-color:grey;
+
+}
+
+.icon2{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+.info{
+    color: black;
+    font-family: fantasy;
+  
+}
+
+
+
+
+
+
+
+.ingredientes {color:black;text-align: center;bottom: 20px;font-size:xx-large;font-family: fantasy;
+background-color: #8F823AFF;}
+
