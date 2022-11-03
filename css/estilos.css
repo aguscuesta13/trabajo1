@@ -1,20 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=PT+Serif:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Josefin+Sans:wght@500&family=PT+Serif:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@1&family=Josefin+Sans:wght@500&family=PT+Serif:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+
+
+
+.contact{
+
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.titulo{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.pasos{
+    background-color: #B9721E;
+    font-family: 'Bebas Neue', cursive;
+}
+
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color:#ED9128;
     flex-wrap: wrap;
-
 }
 
 .logo{
     width: 90px;
+    height: 90px;
 }
 
-.titulo{
-    font-family: fantasy;
-    font-size: xx-large;
-}
+
 
 .redess{
 
@@ -29,13 +53,7 @@ header{
 .icon{
     width: 40px;
     height: 40px;
-    margin: 10px;
 }
-
-
-
-
-
 
 nav{
     justify-content: space-around;
@@ -46,9 +64,11 @@ nav{
 }
 
 .enlaces{
-    font-family: fantasy;
+    font-family: 'Bebas Neue', cursive;
 }
-
+a:hover {
+color: #ED9128;
+}
 
 .recetas{
     width: 80px;
@@ -115,12 +135,20 @@ footer{
   
 }
 
+.parrafos{
+    font-family: 'Roboto Condensed', sans-serif;
+}
 
 
+.ingredientes {color:black;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+background-color:#B9721E;}
 
+.fotocontacto{
+    width: 100vw;
+    height: 50vh;
+    
+}
 
-
-
-.ingredientes {color:black;text-align: center;bottom: 20px;font-size:xx-large;font-family: fantasy;
-background-color: #8F823AFF;}
 
