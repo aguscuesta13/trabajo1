@@ -17,20 +17,63 @@
 
 }
 
+
 .titulo{
     font-family: 'Josefin Sans', sans-serif;
 }
 .pasos{
-    background-color: #B9721E;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+
 }
 
 header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:#ED9128;
+    background-color:#E3A3DC ;
     flex-wrap: wrap;
+}
+
+@media (max-width:575px)
+{
+    body{
+        background-color:#A3D5E3;
+    }
+    .titulo{
+        color: black;
+    }
+    .recetas:hover{
+        color:#A3D5E3 ;
+    }
+    .foto1{
+        flex-direction: column;
+        display: none;
+    }
+    .header{
+        color:#A3D5E3 ;
+    }
+    .enlaces{
+        color: #A3D5E3;
+    }
+    .video{
+        color: none;
+    }
+    main{
+        flex-direction: column;
+    }
+    }
+
+
+@media (max-width:992px)
+    
+    {        .foton{
+            display: none;
+        }
+        .fotonueva{
+            display: none;
+        }
+        
+
 }
 
 .logo{
@@ -45,7 +88,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#ED9128;
+    background-color:#E3A3DC ;
     flex-wrap: wrap;
 
 }
@@ -59,8 +102,11 @@ nav{
     justify-content: space-around;
     display: flex;
     align-items: center;
-    background-color: #ED9128;
+    background-color:#E3A3DC;
 
+}
+nav:hover{
+    background-color:#A3D5E3;
 }
 
 .enlaces{
@@ -86,30 +132,35 @@ body{
     text-align: center;
 }
 
-
-
-section{
-    justify-content: space-around;
+section {
     display: flex;
-    align-items: center;
-
+    justify-content: space-between;
 }
+
+
 .foto1 {padding: 10px;margin: 10px; border: 2px solid black; width: 200px; height: 200px;}
 
 
-main {background-color:#ED9128; }
+.aside1{
+    width: 40%;
+    height: 650px;
+    background-color:#E3A3DC ;
+    overflow: hidden;
 
-aside{background-color: #ED9128;}
-
-
-
+}
+.main1{
+    width: 55%;
+    height: 650px;
+    background-color: #E3A3DC;
+overflow: auto;
+}
 
 
 footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:#ED9128;
+    background-color:#E3A3DC;
     flex-wrap: wrap;
 }
 
@@ -139,16 +190,36 @@ footer{
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.ingre{
+    font-family: 'Roboto Condensed', sans-serif;
 
-.ingredientes {color:black;
+}
+.ingre2{
+    background-color: #E3A3DC;
+
+}
+
+.ingredientes{color:black;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
-background-color:#B9721E;}
+        background-color:#A3D5E3 ;
+}
 
 .fotocontacto{
     width: 100vw;
     height: 50vh;
     
 }
+.fotos{
+    justify-content: space-around;
 
-
+}
+.foton{
+    background-color: #E3A3DC;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+ 
+.fotonueva{
+    width: 100px;
+    height: 100px;
+}
