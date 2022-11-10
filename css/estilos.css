@@ -20,6 +20,7 @@
 
 .titulo{
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
 }
 .pasos{
     font-family: 'Roboto Condensed', sans-serif;
@@ -32,6 +33,7 @@ header{
     align-items: center;
     background-color:#E3A3DC ;
     flex-wrap: wrap;
+    font-size: 1rem;
 }
 
 @media (max-width:575px)
@@ -111,16 +113,15 @@ nav:hover{
 
 .enlaces{
     font-family: 'Bebas Neue', cursive;
+    
 }
 a:hover {
 color: #ED9128;
 }
 
-.recetas{
-    width: 80px;
-    height: 80px;
-    margin: 80px;
-    color: black;
+.containerr{
+    margin: 5px;
+    padding: 5px;
 }
 
 
@@ -138,8 +139,6 @@ section {
 }
 
 
-.foto1 {padding: 10px;margin: 10px; border: 2px solid black; width: 200px; height: 200px;}
-
 
 .aside1{
     width: 40%;
@@ -152,7 +151,7 @@ section {
     width: 55%;
     height: 650px;
     background-color: #E3A3DC;
-overflow: auto;
+    overflow: auto;
 }
 
 
@@ -162,6 +161,7 @@ footer{
     align-items: center;
     background-color:#E3A3DC;
     flex-wrap: wrap;
+    
 }
 
 .mapa{
@@ -183,6 +183,7 @@ footer{
 .info{
     color: black;
     font-family: fantasy;
+    font-size: 3rem;
   
 }
 
@@ -210,16 +211,20 @@ footer{
     height: 50vh;
     
 }
-.fotos{
-    justify-content: space-around;
 
-}
 .foton{
     background-color: #E3A3DC;
     font-family: 'Roboto Condensed', sans-serif;
+    justify-content: center;
 }
  
 .fotonueva{
     width: 100px;
     height: 100px;
 }
+
+.recetas {
+    width: 80px;
+    height: 80px;
+    margin: 80px;
+color: black;}
