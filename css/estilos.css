@@ -13,17 +13,20 @@
 
 .contact{
 
-    font-family: 'Oswald', sans-serif;
+    font-family: sans-serif;
 
 }
 
 
 .titulo{
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 2rem;
+    font-family: 'Tangerine', serif;
+    font-size: 68px;
+    text-shadow: 4px 4px 4px #aaa;
 }
-.pasos{
-    font-family: 'Roboto Condensed', sans-serif;
+.letramain{
+    font-family: 'Tangerine', serif;
+    font-size: 68px;
+    text-shadow: 4px 4px 4px #aaa;
 
 }
 
@@ -108,7 +111,7 @@ nav{
 
 }
 nav:hover{
-    background-color:#A3D5E3;
+    background-color:#F7BCEF;
 }
 
 .enlaces{
@@ -128,7 +131,7 @@ color: #ED9128;
 
 body{
     background-color: azure;
-    background-image: url(./fondonuevo.jpg);
+    background-image: url(./fondopastel.jpg);
     background-attachment: fixed;
     text-align: center;
 }
@@ -152,6 +155,7 @@ section {
     height: 650px;
     background-color: #E3A3DC;
     overflow: auto;
+    
 }
 
 
@@ -183,7 +187,7 @@ footer{
 .info{
     color: black;
     font-family: fantasy;
-    font-size: 3rem;
+    font-size: 1rem;
   
 }
 
@@ -228,3 +232,8 @@ footer{
     height: 80px;
     margin: 80px;
 color: black;}
+
+.tituloc{
+    font-family: 'Tangerine', serif;
+    font-size: 68px;
+    text-shadow: 4px 4px 4px #aaa;}
