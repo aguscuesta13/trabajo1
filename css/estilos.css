@@ -19,7 +19,7 @@
 
 
 .titulo{
-    font-family: 'Tangerine', serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 68px;
     text-shadow: 4px 4px 4px #aaa;
 }
@@ -34,9 +34,16 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:#E3A3DC ;
     flex-wrap: wrap;
     font-size: 1rem;
+
+}
+section{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1rem;
+
 }
 
 @media (max-width:575px)
@@ -61,12 +68,11 @@ header{
         color: #A3D5E3;
     }
     .video{
-        color: none;
-    }
-    main{
-        flex-direction: column;
-    }
-    }
+        color: none;}
+ }
+
+    
+
 
 
 @media (max-width:992px)
@@ -82,8 +88,8 @@ header{
 }
 
 .logo{
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
 }
 
 
@@ -93,7 +99,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#E3A3DC ;
     flex-wrap: wrap;
 
 }
@@ -107,19 +112,24 @@ nav{
     justify-content: space-around;
     display: flex;
     align-items: center;
-    background-color:#E3A3DC;
 
 }
 nav:hover{
-    background-color:#F7BCEF;
+    background-color: #9bd3ae;
 }
 
 .enlaces{
     font-family: 'Bebas Neue', cursive;
     
 }
+.inicio {
+    width: 80px;
+    height: 80px;
+    margin: 80px;
+color: black;}
+
 a:hover {
-color: #ED9128;
+color: black;
 }
 
 .containerr{
@@ -131,51 +141,30 @@ color: #ED9128;
 
 body{
     background-color: azure;
-    background-image: url(./fondopastel.jpg);
+    background-image: url(./fondo1.jpg);
     background-attachment: fixed;
     text-align: center;
 }
 
-section {
-    display: flex;
-    justify-content: space-between;
-}
-
-
-
-.aside1{
-    width: 40%;
-    height: 650px;
-    background-color:#E3A3DC ;
-    overflow: hidden;
-
-}
-.main1{
-    width: 55%;
-    height: 650px;
-    background-color: #E3A3DC;
-    overflow: auto;
-    
-}
 
 
 footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:#E3A3DC;
+    background-color:#9bd3ae;
     flex-wrap: wrap;
     
 }
 
 .mapa{
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
 }
 .redes2{
     display: flex;
   align-items: center;
-  background-color:grey;
+  background-color:#9bd3ae;
 
 }
 
@@ -195,20 +184,6 @@ footer{
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.ingre{
-    font-family: 'Roboto Condensed', sans-serif;
-
-}
-.ingre2{
-    background-color: #E3A3DC;
-
-}
-
-.ingredientes{color:black;
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-        background-color:#A3D5E3 ;
-}
 
 .fotocontacto{
     width: 100vw;
@@ -216,24 +191,26 @@ footer{
     
 }
 
-.foton{
-    background-color: #E3A3DC;
-    font-family: 'Roboto Condensed', sans-serif;
-    justify-content: center;
-}
- 
 .fotonueva{
     width: 100px;
     height: 100px;
 }
 
-.recetas {
-    width: 80px;
-    height: 80px;
-    margin: 80px;
-color: black;}
-
-.tituloc{
-    font-family: 'Tangerine', serif;
-    font-size: 68px;
-    text-shadow: 4px 4px 4px #aaa;}
+.tituloc
+{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 60px;
+text-shadow: 4px 4px 4px #aaa;
+}
+ 
+.conetenedor{
+    display: flex;
+    justify-content: center;
+}
+.carousel{
+    width: 100%;
+    
+}
+.foto{
+    width: 80%;
+    height: 80%;
+}
