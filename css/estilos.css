@@ -8,8 +8,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Roboto+Condensed:wght@300&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap');
 
 .contact{
 
@@ -19,9 +20,9 @@
 
 
 .titulo{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Zilla Slab Highlight';
     font-size: 68px;
-    text-shadow: 4px 4px 4px #aaa;
+    
 }
 .letramain{
     font-family: 'Tangerine', serif;
@@ -112,19 +113,25 @@ nav{
     justify-content: space-around;
     display: flex;
     align-items: center;
+    color: black;
 
+}
+.nav-item{
+    color: black;
 }
 nav:hover{
-    background-color: #9bd3ae;
+    background-color:rgb(216, 149, 216);
 }
 
-.enlaces{
+.m-4{
     font-family: 'Bebas Neue', cursive;
+    color: black;
+    font-size: 130%;
     
 }
 .inicio {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     margin: 80px;
 color: black;}
 
@@ -141,9 +148,9 @@ color: black;
 
 body{
     background-color: azure;
-    background-image: url(./fondo1.jpg);
     background-attachment: fixed;
     text-align: center;
+    background-image: url(./fondlila.jpg);
 }
 
 
@@ -152,7 +159,6 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:#9bd3ae;
     flex-wrap: wrap;
     
 }
@@ -164,7 +170,6 @@ footer{
 .redes2{
     display: flex;
   align-items: center;
-  background-color:#9bd3ae;
 
 }
 
@@ -197,10 +202,20 @@ footer{
 }
 
 .tituloc
-{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+{font-family: 'Zilla Slab Highlight';
 font-size: 60px;
 text-shadow: 4px 4px 4px #aaa;
 }
+.inicioc{
+font-family: 'Bebas Neue';
+
+color: black;
+}
+.contact{
+    font-family: 'Zilla Slab Highlight';
+}
+
+
  
 .conetenedor{
     display: flex;
